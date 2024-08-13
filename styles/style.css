@@ -1,0 +1,328 @@
+/* Google Fonts Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+/* Shared Css */
+.color-1{
+    color: #E6533C;
+}
+.banner-bg{
+    background-color: #111111;
+}
+.bg-color{
+   color:  #222222;
+}
+.main-bg{
+    background-color: #000000;
+}
+.primary-color{
+    color: #FFFFFF;
+}
+.paragraph-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.display-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.button-primary{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    font-size: .9rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 30px;
+}
+
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2.1rem;
+}
+.nav-links{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.navbar, .banner{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content h1{
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+.banner-content p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-btn-2{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: .9rem;
+    font-weight: 700;
+    border: 1px solid #FFFFFF;
+    border-radius: 2rem;
+    padding: 10px 30px;
+}
+
+.banner-image{
+    width: 100%;
+}
+.banner-content{
+    position: relative;
+}
+.box-1{
+    position: absolute;
+    background-color: #393939;
+    border: transparent;
+    padding: 12px;
+    border-radius: 12px;
+    top: 236px;
+    right: 148px;
+}
+.box-1 h4{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+.box-1 p{
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0;
+}
+.box-2{
+    position: absolute;
+    background-color: #393939;
+    border: transparent;
+    padding: 14px 17px;
+    border-radius: 12px;
+    right: 388px;
+    bottom: -32px;
+    display: flex;
+    align-items: center;
+}
+.box-2 h4{
+    font-size: .9rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+.box-2 p{
+    font-size: .5rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0;
+}
+.circle{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.box-2-item{
+    padding-left: 10px;
+}
+
+
+/* Habit CSS Start */
+.habit-section{
+    background-color: #000000;
+    padding-top: 100px;
+}
+.habit-content, .habit-box{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.habit-content h1{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 2.2rem;
+    margin: 0;
+}
+.habit-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 58px;
+}
+.box-items{
+    align-items: center;
+    justify-content: space-between;
+}
+.box-item img{
+    /* width: 100%; */
+}
+.box-item-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.box-item h4{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.box-item p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+}
+/* Habit CSS End */
+
+
+
+/* Run CSS Start */
+.run-section{
+    display: flex;
+    padding: 100px 0 100px 48px;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+}
+.run-content h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+.run-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+}
+.run-image{
+    margin: 0 auto;
+}
+.run-img{
+    width: 400px;
+    border-radius: 18px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Run CSS End */
+
+/* Trainning CSS Start */
+.trainning-section{
+    padding: 100px 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.trainning-content h1{
+    color: #FFFFFF;
+    text-align: left;
+}
+.trainning-content p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    /* grid-template-rows: repeat(2, auto);  */
+    grid-gap: 0; 
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image styling */
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+/* Overlay styling */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+/* .grid-img1{
+    opacity: rgba(6, 255, 210, 0.5);
+} */
+
+/* Trainning CSS End */
+
+
+/* BMI CSS Start */
+.bmi-calculator{
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.bmi-content h1{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.bmi-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px ;
+    font-weight: 400;
+    padding: 0 0 0 355px;
+}
+.calculate-bmi{
+    padding: 100px;
+    background-color: #222222;
+    display: flex;
+}
+/* BMI CSS End */
