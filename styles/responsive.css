@@ -3,9 +3,89 @@
     .navbar, .nav-links{
         flex-direction: column;
     }
-    
+    .header-logo{
+        margin: 20px;
+    }
+    .nav-item {
+        padding: 10px;
+    }
     
     .banner{
+        flex-direction: column;
+    }
+    .box-1 {
+        top: 1220px;
+        right: 70px;
+    }
+    .box-2{
+        left: 40px;
+        bottom: -1060px;
+    }
+    .banner-content p {
+        font-size: 2rem;
+    }
+    .banner-btn{
+        display: block;
+        margin: 20px auto;
+    }
+    .banner-btn-2{
+        display: block;
+        margin: 20px auto;
+    }
+    .banner-image{
+        margin-top: 50px;
+    }
+    .habit-section{
+        padding-top: 75px;
+    }
+    .box-item img{
+        width: 100%;
+    }
+    .run-section {
+        flex-direction: column;
+        padding-top: 75px;
+    }
+    .btn-run{
+        margin-bottom: 20px;
+    }
+    .run-image{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .trainning-section{
+        padding-top: 65px;
+    }
+    .trainning-content p {
+        padding-bottom: 10px;
+    }
+    .image-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi-content h1{
+        padding-top: 65px;
+    }
+    .bmi-content p{
+        padding: 0 0 0 50px;
+    }
+    .calculate-bmi{
+        flex-direction: column;
+    }
+    .bmi h3 {
+        padding-top: 25px;
+    }
+    .bmi form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .button-bmi{
+        margin: 30px 70px;
+    }
+    .team-section{
+        padding: 50px;
+    }
+    .team-group{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
         flex-direction: column;
     }
 }
